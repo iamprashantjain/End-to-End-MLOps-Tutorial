@@ -1,0 +1,3 @@
+[2025-01-11 23:01:35,370] 15 logger_config - INFO - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+[2025-01-11 23:01:35,370] 27 logger_config - INFO - Data preprocessing completed
+[2025-01-11 23:01:35,401] 40 logger_config - INFO - Train and test data saved to ./data\raw
