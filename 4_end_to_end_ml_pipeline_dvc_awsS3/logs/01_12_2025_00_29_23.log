@@ -1,0 +1,5 @@
+[2025-01-12 00:29:23,294] 21 logger_config - INFO - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+[2025-01-12 00:29:23,299] 40 logger_config - INFO - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 2}
+[2025-01-12 00:29:23,299] 43 logger_config - INFO - Model training started with 4152 samples
+[2025-01-12 00:29:23,564] 45 logger_config - INFO - Model training completed
+[2025-01-12 00:29:23,569] 66 logger_config - INFO - Model saved to models/model.pkl
