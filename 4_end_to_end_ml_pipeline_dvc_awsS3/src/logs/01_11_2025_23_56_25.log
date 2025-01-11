@@ -1,0 +1,5 @@
+[2025-01-11 23:56:25,762] 16 logger_config - INFO - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+[2025-01-11 23:56:25,782] 16 logger_config - INFO - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+[2025-01-11 23:56:25,877] 45 logger_config - INFO - tfidf applied and data transformed
+[2025-01-11 23:56:26,077] 56 logger_config - INFO - Data saved to ./data\processed\train_tfidf.csv
+[2025-01-11 23:56:26,113] 56 logger_config - INFO - Data saved to ./data\processed\test_tfidf.csv
