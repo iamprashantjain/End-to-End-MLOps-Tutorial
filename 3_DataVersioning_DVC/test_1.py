@@ -11,6 +11,11 @@ data = {
 
 df = pd.DataFrame(data)
 
+
+#adding new row
+new_row_loc = {"name":"shakkarman","age":100,"city":"india"}
+df.loc[len(df.index)] = new_row_loc
+
 data_dir = "test_data"
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, "test_data.csv")
