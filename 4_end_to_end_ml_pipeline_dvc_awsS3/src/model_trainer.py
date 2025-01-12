@@ -1,3 +1,4 @@
+import yaml
 import sys
 import os
 import numpy as np
@@ -9,6 +10,21 @@ from logger_config import logger
 from custom_exception import CustomException
 
 
+
+#read and return all params inside params.yaml file
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.info('Parameters retrieved from %s', params_path)
+        return params
+    except Exception as e:
+        logger.info('Unexpected error: %s', e)
+        raise CustomException(e,sys)
+    
+    
+    
 def load_data(file_path: str) -> pd.DataFrame:
     """
     Load data from a CSV file.
@@ -70,7 +86,9 @@ def save_model(model, file_path: str) -> None:
 
 def main():
     try:
-        params = {'n_estimators':25, 'random_state':2}
+        params = load_params('params.yaml')['model_trainer']
+        # params = {'n_estimators':25, 'random_state':2}
+        
         train_data = load_data('./data/processed/train_tfidf.csv')
         X_train = train_data.iloc[:, :-1].values
         y_train = train_data.iloc[:, -1].values

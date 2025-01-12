@@ -1,3 +1,4 @@
+import yaml
 import sys
 import os
 import yaml
@@ -6,6 +7,19 @@ from sklearn.model_selection import train_test_split
 
 from logger_config import logger
 from custom_exception import CustomException
+
+
+#read and return all params inside params.yaml file
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.info('Parameters retrieved from %s', params_path)
+        return params
+    except Exception as e:
+        logger.info('Unexpected error: %s', e)
+        raise CustomException(e,sys)
 
       
 def load_data(data_url: str) -> pd.DataFrame:
@@ -44,7 +58,10 @@ def save_data(train_data: pd.DataFrame, test_data: pd.DataFrame, data_path: str)
 
 def main():
     try:
-        test_size = 0.2
+        params = load_params(params_path='params.yaml')
+        test_size = params['data_ingestion']['test_size']
+        # test_size = 0.2
+        
         data_path = 'https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv'
         df = load_data(data_url=data_path)
         
