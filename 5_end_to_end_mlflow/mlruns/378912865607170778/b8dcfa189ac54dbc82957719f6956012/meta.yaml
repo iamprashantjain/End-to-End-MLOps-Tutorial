@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378912865607170778/b8dcfa189ac54dbc82957719f6956012/artifacts
+end_time: 1736698260638
+entry_point_name: ''
+experiment_id: '378912865607170778'
+lifecycle_stage: active
+run_id: b8dcfa189ac54dbc82957719f6956012
+run_name: colorful-owl-624
+run_uuid: b8dcfa189ac54dbc82957719f6956012
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736698260390
+status: 3
+tags: []
+user_id: iampr

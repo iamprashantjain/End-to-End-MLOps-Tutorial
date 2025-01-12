@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378912865607170778/d86c06e888a14e9690cfe68ac07b2580/artifacts
+end_time: 1736698749200
+entry_point_name: ''
+experiment_id: '378912865607170778'
+lifecycle_stage: active
+run_id: d86c06e888a14e9690cfe68ac07b2580
+run_name: welcoming-hound-237
+run_uuid: d86c06e888a14e9690cfe68ac07b2580
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736698719470
+status: 3
+tags: []
+user_id: iampr

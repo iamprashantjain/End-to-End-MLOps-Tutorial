@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/378912865607170778/607b5fc5c29d43f69f1fedd663e7389c/artifacts
+end_time: 1736698015820
+entry_point_name: ''
+experiment_id: '378912865607170778'
+lifecycle_stage: active
+run_id: 607b5fc5c29d43f69f1fedd663e7389c
+run_name: agreeable-hen-455
+run_uuid: 607b5fc5c29d43f69f1fedd663e7389c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736698015519
+status: 3
+tags: []
+user_id: iampr
