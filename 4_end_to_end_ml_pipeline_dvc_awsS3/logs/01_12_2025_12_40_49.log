@@ -1,0 +1,6 @@
+[2025-01-12 12:40:50,004] 16 logger_config - INFO - Parameters retrieved from params.yaml
+[2025-01-12 12:40:50,020] 27 logger_config - INFO - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+[2025-01-12 12:40:50,035] 27 logger_config - INFO - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+[2025-01-12 12:40:50,113] 53 logger_config - INFO - tfidf applied and data transformed
+[2025-01-12 12:40:50,207] 64 logger_config - INFO - Data saved to ./data\processed\train_tfidf.csv
+[2025-01-12 12:40:50,207] 64 logger_config - INFO - Data saved to ./data\processed\test_tfidf.csv

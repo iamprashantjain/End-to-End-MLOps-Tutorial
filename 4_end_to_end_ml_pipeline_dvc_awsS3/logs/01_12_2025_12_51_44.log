@@ -1,0 +1,10 @@
+[2025-01-12 12:51:44,732] 73 logger_config - INFO - Data loaded properly
+[2025-01-12 12:51:44,732] 45 logger_config - INFO - Starting preprocessing for DataFrame
+[2025-01-12 12:51:44,732] 49 logger_config - INFO - Target column encoded
+[2025-01-12 12:51:44,747] 53 logger_config - INFO - Duplicates removed
+[2025-01-12 12:52:36,121] 57 logger_config - INFO - Text column transformed
+[2025-01-12 12:52:36,121] 45 logger_config - INFO - Starting preprocessing for DataFrame
+[2025-01-12 12:52:36,123] 49 logger_config - INFO - Target column encoded
+[2025-01-12 12:52:36,127] 53 logger_config - INFO - Duplicates removed
+[2025-01-12 12:53:09,489] 57 logger_config - INFO - Text column transformed
+[2025-01-12 12:53:09,525] 86 logger_config - INFO - Processed data saved to ./data\interim

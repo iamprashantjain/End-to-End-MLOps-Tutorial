@@ -9,6 +9,22 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_a
 from logger_config import logger
 from custom_exception import CustomException
 
+from dvclive import Live
+import yaml
+
+
+#read and return all params inside params.yaml file
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.info('Parameters retrieved from %s', params_path)
+        return params
+    except Exception as e:
+        logger.info('Unexpected error: %s', e)
+        raise CustomException(e,sys)
+
 
 def load_model(file_path: str):
     """Load the trained model from a file."""
@@ -70,13 +86,24 @@ def save_metrics(metrics: dict, file_path: str) -> None:
 
 def main():
     try:
+        params = load_params(params_path='params.yaml')
         clf = load_model('./models/model.pkl')
         test_data = load_data('./data/processed/test_tfidf.csv')
         
         X_test = test_data.iloc[:, :-1].values
         y_test = test_data.iloc[:, -1].values
 
-        metrics = evaluate_model(clf, X_test, y_test)        
+        metrics = evaluate_model(clf, X_test, y_test)
+        
+        # Experiment tracking using dvclive
+        with Live(save_dvc_exp=True) as live:
+            live.log_metric('accuracy', accuracy_score(y_test, y_test))
+            live.log_metric('precision', precision_score(y_test, y_test))
+            live.log_metric('recall', recall_score(y_test, y_test))
+
+            #also logging all data in params.yaml file
+            live.log_params(params)
+              
         save_metrics(metrics, 'reports/metrics.json')
     except Exception as e:
         logger.info('Failed to complete the model evaluation process: %s', e)

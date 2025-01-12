@@ -1,0 +1,5 @@
+[2025-01-12 12:40:59,037] 22 logger_config - INFO - Parameters retrieved from params.yaml
+[2025-01-12 12:40:59,279] 34 logger_config - INFO - Model loaded from ./models/model.pkl
+[2025-01-12 12:40:59,289] 45 logger_config - INFO - Data loaded from ./data/processed/test_tfidf.csv
+[2025-01-12 12:40:59,311] 68 logger_config - INFO - Model evaluation metrics calculated
+[2025-01-12 12:41:01,250] 82 logger_config - INFO - Metrics saved to reports/metrics.json

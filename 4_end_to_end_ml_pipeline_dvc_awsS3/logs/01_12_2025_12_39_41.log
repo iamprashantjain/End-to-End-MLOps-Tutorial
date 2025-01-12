@@ -1,0 +1,4 @@
+[2025-01-12 12:39:41,523] 18 logger_config - INFO - Parameters retrieved from params.yaml
+[2025-01-12 12:39:41,695] 29 logger_config - INFO - Data loaded from https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+[2025-01-12 12:39:41,710] 41 logger_config - INFO - Data preprocessing completed
+[2025-01-12 12:39:41,742] 54 logger_config - INFO - Train and test data saved to ./data\raw
