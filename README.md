@@ -1,5 +1,7 @@
 # End-to-End MLOps Tutorial
 
+![alt text](image.png)
+
 Welcome to the **End-to-End MLOps Tutorial**! This tutorial covers everything you need to get started with MLOps. Throughout this guide, we’ll dive deep into each topic with practical examples to help you build, deploy, and manage machine learning models effectively.
 
 ### Connect with Me:
