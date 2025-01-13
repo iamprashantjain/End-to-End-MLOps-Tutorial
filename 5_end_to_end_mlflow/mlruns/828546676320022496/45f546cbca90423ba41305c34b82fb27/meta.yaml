@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/45f546cbca90423ba41305c34b82fb27/artifacts
+end_time: 1736709599889
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 45f546cbca90423ba41305c34b82fb27
+run_name: upset-goat-331
+run_uuid: 45f546cbca90423ba41305c34b82fb27
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709599827
+status: 3
+tags: []
+user_id: iampr

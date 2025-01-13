@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/0cf9590f88ae486583535ffd573d1a38/artifacts
+end_time: 1736709599811
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 0cf9590f88ae486583535ffd573d1a38
+run_name: clumsy-shoat-451
+run_uuid: 0cf9590f88ae486583535ffd573d1a38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709599749
+status: 3
+tags: []
+user_id: iampr

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/349e05b29f2b4876b15e1de7ef0974bb/artifacts
+end_time: 1736709701281
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 349e05b29f2b4876b15e1de7ef0974bb
+run_name: classy-skunk-430
+run_uuid: 349e05b29f2b4876b15e1de7ef0974bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709701173
+status: 3
+tags: []
+user_id: iampr

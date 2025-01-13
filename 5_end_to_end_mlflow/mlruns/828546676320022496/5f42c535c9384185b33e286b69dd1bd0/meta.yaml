@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/5f42c535c9384185b33e286b69dd1bd0/artifacts
+end_time: 1736709709499
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 5f42c535c9384185b33e286b69dd1bd0
+run_name: mysterious-fly-650
+run_uuid: 5f42c535c9384185b33e286b69dd1bd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709690266
+status: 3
+tags: []
+user_id: iampr

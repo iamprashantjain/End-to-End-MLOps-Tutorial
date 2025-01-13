@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/bbd82f599b5d4215b71e7b7a688372b5/artifacts
+end_time: 1736709701156
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: bbd82f599b5d4215b71e7b7a688372b5
+run_name: wistful-lamb-611
+run_uuid: bbd82f599b5d4215b71e7b7a688372b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709701073
+status: 3
+tags: []
+user_id: iampr

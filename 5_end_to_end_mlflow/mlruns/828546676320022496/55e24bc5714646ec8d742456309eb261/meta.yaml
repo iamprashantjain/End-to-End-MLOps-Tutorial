@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/55e24bc5714646ec8d742456309eb261/artifacts
+end_time: 1736709700627
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 55e24bc5714646ec8d742456309eb261
+run_name: rogue-hawk-512
+run_uuid: 55e24bc5714646ec8d742456309eb261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709700565
+status: 3
+tags: []
+user_id: iampr

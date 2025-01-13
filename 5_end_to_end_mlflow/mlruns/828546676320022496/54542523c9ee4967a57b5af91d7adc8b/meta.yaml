@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/54542523c9ee4967a57b5af91d7adc8b/artifacts
+end_time: 1736709700549
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 54542523c9ee4967a57b5af91d7adc8b
+run_name: luxuriant-snipe-488
+run_uuid: 54542523c9ee4967a57b5af91d7adc8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709700471
+status: 3
+tags: []
+user_id: iampr

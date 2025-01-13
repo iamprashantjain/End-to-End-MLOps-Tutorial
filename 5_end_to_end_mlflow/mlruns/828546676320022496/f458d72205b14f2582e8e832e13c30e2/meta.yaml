@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/f458d72205b14f2582e8e832e13c30e2/artifacts
+end_time: 1736709773625
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: f458d72205b14f2582e8e832e13c30e2
+run_name: silent-dog-394
+run_uuid: f458d72205b14f2582e8e832e13c30e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709773563
+status: 3
+tags: []
+user_id: iampr

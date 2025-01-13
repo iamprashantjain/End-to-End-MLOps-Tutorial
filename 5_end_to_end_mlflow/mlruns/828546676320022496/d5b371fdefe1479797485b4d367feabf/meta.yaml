@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/d5b371fdefe1479797485b4d367feabf/artifacts
+end_time: 1736709599733
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: d5b371fdefe1479797485b4d367feabf
+run_name: funny-mare-823
+run_uuid: d5b371fdefe1479797485b4d367feabf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709599670
+status: 3
+tags: []
+user_id: iampr

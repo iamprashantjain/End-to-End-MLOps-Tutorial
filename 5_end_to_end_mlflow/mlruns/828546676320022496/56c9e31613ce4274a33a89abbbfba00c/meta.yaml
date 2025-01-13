@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/56c9e31613ce4274a33a89abbbfba00c/artifacts
+end_time: 1736709773550
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 56c9e31613ce4274a33a89abbbfba00c
+run_name: dazzling-shrimp-798
+run_uuid: 56c9e31613ce4274a33a89abbbfba00c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709773481
+status: 3
+tags: []
+user_id: iampr

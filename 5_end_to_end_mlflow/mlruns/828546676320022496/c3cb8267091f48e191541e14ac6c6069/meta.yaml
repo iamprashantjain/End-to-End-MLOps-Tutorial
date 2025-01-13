@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/c3cb8267091f48e191541e14ac6c6069/artifacts
+end_time: 1736709599561
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: c3cb8267091f48e191541e14ac6c6069
+run_name: spiffy-auk-275
+run_uuid: c3cb8267091f48e191541e14ac6c6069
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709599499
+status: 3
+tags: []
+user_id: iampr

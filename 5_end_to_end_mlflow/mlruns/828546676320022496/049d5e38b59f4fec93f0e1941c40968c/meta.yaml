@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/049d5e38b59f4fec93f0e1941c40968c/artifacts
+end_time: 1736709773466
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 049d5e38b59f4fec93f0e1941c40968c
+run_name: dashing-stork-124
+run_uuid: 049d5e38b59f4fec93f0e1941c40968c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709773403
+status: 3
+tags: []
+user_id: iampr

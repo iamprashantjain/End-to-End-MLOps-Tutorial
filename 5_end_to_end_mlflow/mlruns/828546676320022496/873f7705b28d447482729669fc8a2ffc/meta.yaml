@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/873f7705b28d447482729669fc8a2ffc/artifacts
+end_time: 1736709599404
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: 873f7705b28d447482729669fc8a2ffc
+run_name: classy-jay-20
+run_uuid: 873f7705b28d447482729669fc8a2ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709599338
+status: 3
+tags: []
+user_id: iampr

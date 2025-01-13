@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-MLOps-Tutorial/5_end_to_end_mlflow/mlruns/828546676320022496/f2f4deecc2554e26ab58c1dc20ba92d2/artifacts
+end_time: 1736709700381
+entry_point_name: ''
+experiment_id: '828546676320022496'
+lifecycle_stage: active
+run_id: f2f4deecc2554e26ab58c1dc20ba92d2
+run_name: orderly-dove-880
+run_uuid: f2f4deecc2554e26ab58c1dc20ba92d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736709700318
+status: 3
+tags: []
+user_id: iampr
